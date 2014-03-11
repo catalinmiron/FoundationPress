@@ -40,6 +40,9 @@
       <div class="large-12 columns add-bg">
         <?php previous_post_link( '%link', _x( '&larr;', 'Previous post link', 'personal' ) . '%title' ); ?>
         <?php next_post_link( '%link', '%title' . _x( '&rarr;', 'Next post link', 'personal' ) ); ?>
+        <a href="#" class="button">
+          <i class="fi-social-zurb large"></i>
+        </a>
       </div>
       <footer>
         <p><?php the_tags(); ?></p>

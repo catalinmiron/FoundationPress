@@ -12,7 +12,7 @@ module.exports = function(grunt) {
         },
         files: {
           'css/app.css': 'scss/app.scss'
-        }        
+        }
       }
     },
 
@@ -23,6 +23,12 @@ module.exports = function(grunt) {
         src: '**',
         dest: 'js'
       },
+      font-icon: {
+        expand: true,
+        cwd: 'bower_components/foundation-icon-fonts',
+        src: '**',
+        dest: 'css/'
+      }
     },
 
     uglify: {

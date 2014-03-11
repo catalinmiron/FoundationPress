@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title><?php wp_title('|', true, 'right'); bloginfo('name'); ?></title>
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/app.css" />
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/font/foundation-icons.css" />
     <link rel="shortcut icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/favicon.png">
     <?php wp_head(); ?>
   </head>
@@ -18,7 +19,7 @@
       <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
     </section>
     <section class="middle tab-bar-section">
-      
+
       <h1 class="title"><?php bloginfo( 'name' ); ?></h1>
 
     </section>
@@ -27,13 +28,13 @@
   <aside class="left-off-canvas-menu">
     <?php foundationPress_mobile_off_canvas(); ?>
   </aside>
-  
+
         <div class="top-bar-container contain-to-grid show-for-medium-up">
             <nav class="top-bar" data-topbar="">
                 <ul class="title-area">
                     <li class="name">
                         <h1><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></h1>
-                    </li>          
+                    </li>
                 </ul>
                 <section class="top-bar-section">
                     <?php foundationPress_top_bar_l(); ?>
